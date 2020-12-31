@@ -1,18 +1,33 @@
 * {
-	box-sizing:border-box;
-	margin:0;
-	padding:0;
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
 }
 
-html,body{
-	height:100%;
-	width:100%;
+html{
+	height: 0%;
+	width: 100%;
+}
+
+.snake_header{
+	display: flex;
+	justify-content: center;
+	color: #82e6b8;
+}
+
+.helptext{
+	margin-top: 10px;
+	text-align: center;
+	border: 3px solid #372d3c;
+	border-radius: 16px;
+	background-color: #463b4c;
 }
 
 body{
-	align-content:space-around;
-	background-color:#545f5f;
-	color:#FBF5F3;
-	display:grid;
-	justify-content:center;
+	height: 100%;
+	width: 100%;
+	background-color: #545f5f;
+	color: #FBF5F3;
+	display: grid;
+	justify-content: center;
 }
