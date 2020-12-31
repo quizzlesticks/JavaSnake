@@ -9,9 +9,28 @@ html{
 	width: 100%;
 }
 
-.snake_header{
+.text_art{
+	display: grid;
+	grid-template-columns: auto auto;
+	font-family: monospace;
+	text-shadow: 0 0 20px , 0 0 40px, 0 0 80px , 0 0 100px;
+	white-space: pre;
+}
+
+.text_art{
+	
+}
+
+.snake_art{
 	display: flex;
-	justify-content: center;
+	justify-content: flex-start;
+	color: #82e6b8;
+
+}
+
+.coffee_art{
+	display: flex;
+	justify-content: flex-end;
 	color: #82e6b8;
 }
 
