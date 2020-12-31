@@ -5,7 +5,7 @@ context.canvas.width = 1220;
 
 context.fillStyle = "#201A23";
 
-context.fillRect(0,0,400,1220);
+context.fillRect(0,0,400,2400);
 
 const loop = function () {
 	window.requestAnimationFrame(loop);
